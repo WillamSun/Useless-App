@@ -84,8 +84,8 @@ namespace testforpower
             if (comboBox1.SelectedIndex == 0)
             {
                 detecting = "detecting";
-                StartButtonText = "Start detecting";
-                StartButtonText2 = "Detecting again";
+                StartButtonText = "Start detecte";
+                StartButtonText2 = "Detecte again";
                 ResultText = "Your computer is on!";
                 title = "Is your computer turn on?";
                 ResultText2 = "Not detecting yet";
