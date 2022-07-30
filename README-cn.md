@@ -1,6 +1,6 @@
 # 没用的软件
 
-### ***其实这个软件什么也不会干***
+### ***其实这个软件什么也不会干...***
 <p align="center"><a href="https://github.com/WillamSun/Useless-App/blob/master/README.md">English</a> | 中文</p>
 
 ## 用法
