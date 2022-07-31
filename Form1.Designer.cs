@@ -84,6 +84,8 @@
             "English",
             "中文（简体）",
             "中文（繁體）",
+            "Français",
+            "Deutsch",
             "日本語"});
             this.comboBox1.Location = new System.Drawing.Point(501, 161);
             this.comboBox1.Name = "comboBox1";

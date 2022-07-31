@@ -84,11 +84,11 @@ namespace testforpower
             if (comboBox1.SelectedIndex == 0)
             {
                 detecting = "detecting";
-                StartButtonText = "Start detecte";
-                StartButtonText2 = "Detecte again";
+                StartButtonText = "Start detection";
+                StartButtonText2 = "Detect again";
                 ResultText = "Your computer is on!";
                 title = "Is your computer turn on?";
-                ResultText2 = "Not detecting yet";
+                ResultText2 = "Not detected yet";
                 SuccessText = "Successed!";
                 SuccessTitle = "Message";
             }
@@ -114,6 +114,28 @@ namespace testforpower
                 SuccessTitle = "消息";
             }
             else if (comboBox1.SelectedIndex == 3)
+            {
+                detecting = "détection";
+                StartButtonText = "Commencer à détecter";
+                StartButtonText2 = "Détecter à nouveau";
+                ResultText = "Votre ordinateur est allumé !";
+                title = "Votre ordinateur est allumé ?";
+                ResultText2 = "Pas encore détecté";
+                SuccessText = "Réussie!";
+                SuccessTitle = "Message";
+            }
+            else if (comboBox1.SelectedIndex == 4)
+            {
+                detecting = "erkennen";
+                StartButtonText = "Starten Sie die Erkennung";
+                StartButtonText2 = "Erneut erkennen";
+                ResultText = "Ihr Computer ist eingeschaltet!";
+                title = "Ist Ihr Computer eingeschaltet?";
+                ResultText2 = "Noch nicht erkannt";
+                SuccessText = "Erfolgreich!";
+                SuccessTitle = "Nachricht";
+            }
+            else if (comboBox1.SelectedIndex == 5)
             {
                 detecting = "検査中";
                 StartButtonText = "始める検査";
