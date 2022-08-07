@@ -43,6 +43,7 @@ namespace testforpower
                 progressBar1.Value = 0;
                 comboBox1.Enabled = true;
                 Start.Text = StartButtonText2;
+                System.Threading.Thread.Sleep(81);
                 result.Text = ResultText;
                 result.ForeColor = Color.FromArgb(0, 192, 0);
                 Start.Enabled = true;
@@ -115,6 +116,16 @@ namespace testforpower
             }
             else if (comboBox1.SelectedIndex == 3)
             {
+                detecting = "обнаружение";
+                StartButtonText = "Начать обнаружение";
+                StartButtonText2 = "Обнаружить снова";
+                ResultText = "Ваш компьютер включен!";
+                title = "Ваш компьютер включен?";
+                SuccessText = "Успешно!";
+                SuccessTitle = "Сообщение";
+            }
+            else if (comboBox1.SelectedIndex == 4)
+            {
                 detecting = "détection";
                 StartButtonText = "Commencer à détecter";
                 StartButtonText2 = "Détecter à nouveau";
@@ -124,7 +135,7 @@ namespace testforpower
                 SuccessText = "Réussie!";
                 SuccessTitle = "Message";
             }
-            else if (comboBox1.SelectedIndex == 4)
+            else if (comboBox1.SelectedIndex == 5)
             {
                 detecting = "erkennen";
                 StartButtonText = "Starten Sie die Erkennung";
@@ -135,7 +146,7 @@ namespace testforpower
                 SuccessText = "Erfolgreich!";
                 SuccessTitle = "Nachricht";
             }
-            else if (comboBox1.SelectedIndex == 5)
+            else if (comboBox1.SelectedIndex == 6)
             {
                 detecting = "検査中";
                 StartButtonText = "始める検査";
