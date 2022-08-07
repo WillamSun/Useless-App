@@ -10,4 +10,7 @@ Even though it's useless but it also support **4 languages**, they're:
 - `English`
 - `Simplified Chinese`
 - `Traditional Chinese`
+- `French`  
+- `German`  
+- `Russian`  
 - `Japanese`
