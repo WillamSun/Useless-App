@@ -39,7 +39,7 @@ namespace testforpower
                     progressBar1.Value += 2;
                     System.Threading.Thread.Sleep(new Random().Next(0, 100));
                 }
-                System.Threading.Thread.Sleep(800);
+                System.Threading.Thread.Sleep(1000);
                 progressBar1.Value = 0;
                 comboBox1.Enabled = true;
                 Start.Text = StartButtonText2;
