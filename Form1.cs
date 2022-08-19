@@ -79,7 +79,7 @@ namespace testforpower
         {
             e.Handled = true;
         }
-
+        
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox1.SelectedIndex == 0)
@@ -111,6 +111,7 @@ namespace testforpower
                 StartButtonText2 = "重新檢測";
                 ResultText = "電腦電源已開";
                 title = "檢測電腦電源是否打開";
+                ResultText2 = "未檢測";
                 SuccessText = "成功！";
                 SuccessTitle = "消息";
             }
@@ -121,6 +122,7 @@ namespace testforpower
                 StartButtonText2 = "Обнаружить снова";
                 ResultText = "Ваш компьютер включен!";
                 title = "Ваш компьютер включен?";
+                ResultText2 = "Еще не обнаружить";
                 SuccessText = "Успешно!";
                 SuccessTitle = "Сообщение";
             }
@@ -153,6 +155,7 @@ namespace testforpower
                 StartButtonText2 = "再び検査";
                 ResultText = "コンピュータの電源が入っています";
                 title = "パソコンの電源は入っていますか？";
+                ResultText2 = "まだ検査していません";
                 SuccessText = "成功！";
                 SuccessTitle = "情報";
             }
