@@ -33,7 +33,7 @@ namespace testforpower
                 Start.Enabled = false;
                 comboBox1.Enabled = false;
                 Start.Text = detecting + "...";
-                result.ForeColor = Color.Blue;
+                result.ForeColor = Color.Gold;
                 for (int i = 0; i < 50; i++)
                 {
                     progressBar1.Value += 2;

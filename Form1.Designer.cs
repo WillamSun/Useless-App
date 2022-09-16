@@ -69,7 +69,7 @@
             this.result.BackColor = System.Drawing.SystemColors.Control;
             this.result.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.result.Font = new System.Drawing.Font("微软雅黑 Light", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.result.ForeColor = System.Drawing.Color.Gold;
+            this.result.ForeColor = System.Drawing.Color.Red;
             this.result.Location = new System.Drawing.Point(0, 148);
             this.result.Name = "result";
             this.result.Size = new System.Drawing.Size(622, 36);
